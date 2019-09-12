@@ -37,6 +37,7 @@ p {
 }
 .container {
   width: 100%;
+  background: #778899;
 }
 .container header {
   width: 100%;
@@ -92,15 +93,16 @@ p {
   background-clip: padding-box;
 }
 .container .bio .bioText button:hover {
-  background-color: #1B82E6;
+  background-color: #4169E1;
 }
 .container .top {
   width: 100%;
+  text-align: center;
 }
 .container .top .topLeft {
   width: 100%;
   padding: 30px;
-  background-color: #f3f3f3;
+  background-color: #778899;
 }
 .container .top .topLeft h2 {
   padding: 0 0 15px 0;
@@ -108,9 +110,31 @@ p {
 .container .top .topLeft p {
   line-height: 19px;
 }
+.container .top .topLeft button {
+  width: 45%;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border: 1px solid white;
+  background-color: dodgerblue;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.container .top .topLeft button:hover {
+  background-color: #4169E1;
+}
 .container .top .topRight {
   width: 100%;
   padding: 30px;
+  background: #778899;
 }
 .container .top .topRight table {
   width: 100%;
@@ -128,20 +152,21 @@ p {
 }
 .container .bot .botCont {
   width: 100%;
-  padding: 30px;
+  text-align: center;
 }
 .container .bot .botCont h2 {
   padding: 0 0 15px 0;
 }
 .container .bot .botCont li {
   padding: 7px 0 0 0;
+  justify-content: flex-start;
 }
 .container .bot .botCont li span {
   font-weight: 500;
 }
 .container footer {
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: #FFFFFF;
 }
 .container footer p {
   padding: 15px 0 0 0;
@@ -154,7 +179,7 @@ p {
   .container .top {
     display: flex;
     justify-content: space-between;
-    background-color: #f3f3f3;
+    background-color: #FFFFFF;
   }
   .container .top .topLeft {
     width: 48%;
@@ -181,9 +206,7 @@ p {
     align-items: center;
   }
   .container .bio .img {
-    width: 46%;
     margin-top: 30px;
-    height: 350px;
     align-content: flex-end;
   }
   .container .bio .bioText {
@@ -211,5 +234,6 @@ p {
   .container footer {
     width: 850px;
     margin: 0 auto;
+    background: #778899;
   }
 }
